@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['CigaretteButt']
+
+roboflow:
+  workspace: yolo-jksep
+  project: cigarette-butt-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-jksep/cigarette-butt-detection/dataset/3
